@@ -23,12 +23,16 @@ C language source code and schematic for an automotive OBD-II scan tool adapter.
 
 # Overview
 
-An OBD-II (On-Board Diagnostics II) scan tool adapter serves as a bridge device between a host (e.g. PC, phone, embedded device) and the vehicle. The OBD-II adapter translates serial messages to and from OBD-II vehicle messages. The adapter supports all known OBD-II automotive protocols starting from 1996 model year. A vehicle 16-pin OBD-II connector is typically located on the driver's size under the dashboard.
+An OBD-II (On-Board Diagnostics II) scan tool adapter serves as a bridge device between a host (e.g. PC, phone, embedded device) and the vehicle. The OBD-II adapter translates serial messages to and from OBD-II vehicle messages. The adapter supports all known OBD-II automotive protocols starting from 1996 model year. 
 
 * SAE J1850 (VPW, PWM)
 * ISO 9141-2 (ISO)
 * ISO 14320-4 (KWP 2000)
 * ISO 15765-4 (CAN bus)
+
+A vehicle 16-pin OBD-II connector is typically located on the driver's size under the dashboard.
+
+![OBD II Diagram](images/DynoScanLineArtWindows.gif)
 
 The software source code is being open-sourced for public use under the MIT License.
 
