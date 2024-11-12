@@ -1,0 +1,62 @@
+[HEADER]
+magic_cookie={66E99B07-E706-4689-9E80-9B2582898A13}
+file_version=1.0
+[PATH_INFO]
+dir_src=
+dir_bin=
+dir_tmp=
+dir_sin=
+dir_inc=
+dir_lib=
+dir_lkr=
+[CAT_FILTERS]
+filter_src=*.c
+filter_inc=*.h
+filter_obj=
+filter_lib=
+filter_lkr=
+[OTHER_FILES]
+file_000=no
+file_001=no
+file_002=no
+file_003=no
+file_004=no
+file_005=no
+file_006=no
+file_007=no
+file_008=no
+file_009=no
+file_010=no
+file_011=no
+file_012=no
+file_013=no
+file_014=no
+file_015=no
+file_016=no
+file_017=no
+file_018=no
+[FILE_INFO]
+file_000=Main.c
+file_001=const.h
+file_002=glob_bus.h
+file_003=Globals.h
+file_004=hardware.h
+file_005=Host.h
+file_006=pwm-02.h
+file_007=Timer.h
+file_008=util.h
+file_009=Vehicle.h
+file_010=vpw-02.h
+file_011=a_18f248.h
+file_012=C:\Program Files\PICC\Devices\18F248.h
+file_013=CAN18XX8.h
+file_014=CAN.h
+file_015=C:\Program Files\PICC\Drivers\STDLIB.H
+file_016=C:\Program Files\PICC\Drivers\STDDEF.H
+file_017=C:\Program Files\PICC\Drivers\STRING.H
+file_018=C:\Program Files\PICC\Drivers\CTYPE.H
+[SUITE_INFO]
+suite_guid={BA86BF99-4C07-4CE2-A9E7-C2A337910996}
+suite_state=
+[TOOL_SETTINGS]
+TS{1BC4CBE6-8517-4656-ADCE-144170246122}=+DF +LN +T -A +M +Z +Y=9 +EA

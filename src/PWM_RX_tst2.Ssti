@@ -1,0 +1,37 @@
+2;Cycles; 15;unchecked;Pin:RA2;0;Pin:RA1;0;*_*
+2;Cycles; 50;unchecked;Pin:RA2;1;Pin:RA1;0;*_*
+2;Cycles;100;unchecked;Pin:RA2;0;Pin:RA1;0;*_*
+2;Cycles;125;unchecked;Pin:RA2;1;Pin:RA1;0;*_*
+2;Cycles;285;unchecked;Pin:RA2;0;Pin:RA1;0;*_*
+2;Cycles;365;unchecked;Pin:RA2;1;Pin:RA1;0;*_*
+2;Cycles;405;unchecked;Pin:RA2;0;Pin:RA1;0;*_*
+2;Cycles;485;unchecked;Pin:RA2;1;Pin:RA1;0;*_*
+2;Cycles;565;unchecked;Pin:RA2;0;Pin:RA0;0;*_*
+2;Cycles;605;unchecked;Pin:RA2;1;Pin:RA0;1;*_*
+2;Cycles;645;unchecked;Pin:RA2;0;Pin:RA0;1;*_*
+2;Cycles;725;unchecked;Pin:RA2;1;Pin:RA0;1;*_*
+2;Cycles;805;unchecked;Pin:RA2;0;Pin:RA0;1;*_*
+2;Cycles;845;unchecked;Pin:RA2;1;Pin:RA0;1;*_*
+2;Cycles;885;unchecked;Pin:RA2;0;Pin:RA0;1;*_*
+2;Cycles;965;unchecked;Pin:RA2;1;Pin:RA0;1;*_*
+2;Cycles;1045;unchecked;Pin:RA2;0;Pin:RA0;1;*_*
+2;Cycles;1085;unchecked;Pin:RA2;1;Pin:RA0;1;*_*
+2;Cycles;1125;unchecked;Pin:RA2;0;Pin:RA0;1;*_*
+2;Cycles;1205;unchecked;Pin:RA2;1;Pin:RA0;1;*_*
+2;Cycles;1285;unchecked;Pin:RA2;0;Pin:RA0;1;*_*
+2;Cycles;1325;unchecked;Pin:RA2;1;Pin:RA0;1;*_*
+2;Cycles;1353;unchecked;Pin:RA2;0;Pin:RA0;1;*_*
+2;Cycles;1421;unchecked;Pin:RA2;1;Pin:RA0;1;*_*
+2;Cycles;1489;unchecked;Pin:RA2;0;Pin:RA0;1;*_*
+2;Cycles;1517;unchecked;Pin:RA2;1;Pin:RA0;1;*_*
+2;Cycles;1557;unchecked;Pin:RA2;0;Pin:RA0;1;*_*
+2;Cycles;1625;unchecked;Pin:RA2;1;Pin:RA0;1;*_*
+2;Cycles;1693;unchecked;Pin:RA2;0;Pin:RA0;1;*_*
+2;Cycles;1733;unchecked;Pin:RA2;1;Pin:RA0;1;*_*
+2;Cycles;1791;unchecked;Pin:RA2;0;Pin:RA0;1;*_*
+2;Cycles;1873;unchecked;Pin:RA2;1;Pin:RA0;1;*_*
+2;Cycles;1972;unchecked;Pin:RA2;0;Pin:RA0;1;*_*
+2;Cycles;2009;unchecked;Pin:RA2;1;Pin:RA0;1;*_*
+2;Cycles;2068;unchecked;Pin:RA2;0;Pin:RA0;1;*_*
+2;Cycles;2148;unchecked;Pin:RA2;1;Pin:RA0;1;*_*
+2;Cycles;2228;unchecked;Pin:RA2;0;Pin:RA0;1;*_*

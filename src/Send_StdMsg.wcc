@@ -1,0 +1,216 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE CK[
+ <!ELEMENT CK (DIR)* >
+ <!ELEMENT DIR (DIR|INT|EXTENDED|DOUBLE|BINARY|BOOL|STR)* >
+ <!ELEMENT INT (#PCDATA)>
+ <!ELEMENT EXTENDED (#PCDATA)>
+ <!ELEMENT DOUBLE (#PCDATA)>
+ <!ELEMENT BINARY (#PCDATA)>
+ <!ELEMENT BOOL (#PCDATA)>
+ <!ELEMENT STR (#PCDATA)>
+ <!ATTLIST CK version CDATA #REQUIRED>
+ <!ATTLIST DIR Name CDATA #REQUIRED>
+ <!ATTLIST INT Name CDATA #REQUIRED>
+ <!ATTLIST EXTENDED Name CDATA #REQUIRED>
+ <!ATTLIST DOUBLE Name CDATA #REQUIRED>
+ <!ATTLIST BINARY Name CDATA #REQUIRED>
+ <!ATTLIST BOOL Name CDATA #REQUIRED>
+ <!ATTLIST STR Name CDATA #REQUIRED>
+]>
+<CK version="1.1">
+<DIR Name="Config">
+  <DIR Name="CANKingProj">
+    <DIR Name="ProjMgr">
+      <INT Name="Left">515</INT>
+      <INT Name="Top">215</INT>
+      <INT Name="Width">435</INT>
+      <INT Name="Height">300</INT>
+      <INT Name="State">0</INT>
+      <INT Name="Visible">0</INT>
+    </DIR>
+    <DIR Name="ConnectionRules">
+      <STR Name="R0">^TCANKingDialog\.,$,,0,TMCBaseWindow.TMCCanController,,1</STR>
+      <STR Name="R1">^TCANKingDialog\.,$,,0,THistoryWindow,,0</STR>
+      <STR Name="R2">^TMCBaseWindow\.,$,,0,TMCBaseWindow.TMCMainWindow,,0</STR>
+      <STR Name="R3">^TMCBaseWindow\.,TMCBaseWindow.TMCMainWindow,,0,$,,0</STR>
+      <STR Name="R4">TTimedTransmission$,$,,0,TMCBaseWindow.TMCCanController,,1</STR>
+    </DIR>
+    <DIR Name="Desktop">
+      <INT Name="Left">6</INT>
+      <INT Name="Top">3</INT>
+      <INT Name="Width">640</INT>
+      <INT Name="Height">74</INT>
+      <INT Name="State">0</INT>
+      <INT Name="Visible">1</INT>
+      <STR Name="Caption">CANKing for Windows</STR>
+    </DIR>
+    <DIR Name="Windows">
+      <DIR Name="0">
+        <STR Name="Class">TMCBaseWindow.TMCCanController</STR>
+        <INT Name="Left">9</INT>
+        <INT Name="Top">80</INT>
+        <INT Name="State">0</INT>
+        <INT Name="Visible">1</INT>
+        <STR Name="Caption">MCP2510 CAN Controller</STR>
+        <INT Name="BitR">250000</INT>
+        <INT Name="T1">5</INT>
+        <INT Name="T2">2</INT>
+        <INT Name="SJW">2</INT>
+        <INT Name="Page">0</INT>
+      </DIR>
+      <DIR Name="1">
+        <STR Name="Class">TFormatter</STR>
+        <INT Name="Left">323</INT>
+        <INT Name="Top">384</INT>
+        <INT Name="State">0</INT>
+        <INT Name="Visible">1</INT>
+        <STR Name="Caption">Select Formatters</STR>
+        <DIR Name="Fmt0">
+          <STR Name="Name">StandardText</STR>
+          <INT Name="Octal">0</INT>
+          <INT Name="Hex">0</INT>
+          <INT Name="DeltaTime">0</INT>
+          <INT Name="ShowAscii">0</INT>
+          <INT Name="DefaultBase">0</INT>
+        </DIR>
+      </DIR>
+      <DIR Name="2">
+        <STR Name="Class">TOutputWindow</STR>
+        <INT Name="Left">346</INT>
+        <INT Name="Top">94</INT>
+        <INT Name="Width">625</INT>
+        <INT Name="Height">244</INT>
+        <INT Name="State">0</INT>
+        <INT Name="Visible">1</INT>
+        <STR Name="Caption">Output Window</STR>
+        <INT Name="AutoScroll">1</INT>
+        <INT Name="FixedPos">0</INT>
+      </DIR>
+      <DIR Name="3">
+        <STR Name="Class">THistoryWindow</STR>
+        <INT Name="Left">567</INT>
+        <INT Name="Top">345</INT>
+        <INT Name="Width">453</INT>
+        <INT Name="Height">275</INT>
+        <INT Name="State">0</INT>
+        <INT Name="Visible">1</INT>
+        <STR Name="Caption">History list</STR>
+      </DIR>
+      <DIR Name="4">
+        <STR Name="Class">TMCBaseWindow.TMCMainWindow</STR>
+        <INT Name="ShowLoadButtons">0</INT>
+        <INT Name="AvoidInit">0</INT>
+        <INT Name="Left">12</INT>
+        <INT Name="Top">371</INT>
+        <INT Name="State">0</INT>
+        <INT Name="Visible">1</INT>
+        <STR Name="Caption">MCP2510 Evaluation Board</STR>
+      </DIR>
+      <DIR Name="5">
+        <STR Name="Class">TTimedTransmission</STR>
+        <INT Name="Left">11</INT>
+        <INT Name="Top">564</INT>
+        <INT Name="State">0</INT>
+        <INT Name="Visible">1</INT>
+        <STR Name="Caption">Timed transmission</STR>
+      </DIR>
+      <DIR Name="6">
+        <STR Name="Class">TCANKingDialog.TUtilPage.TUniversalPage</STR>
+        <INT Name="Left">328</INT>
+        <INT Name="Top">362</INT>
+        <INT Name="State">0</INT>
+        <INT Name="Visible">1</INT>
+        <STR Name="Caption">Universal page</STR>
+        <INT Name="MsgLen">32</INT>
+        <BINARY Name="Msg">
+          7wcAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAECAwQFBgc=
+        </BINARY>
+      </DIR>
+      <STR Name="ReverseZOrder">1,0,2,3,4,5,6</STR>
+    </DIR>
+    <DIR Name="Connections">
+      <STR Name="C0">0,1,1,0</STR>
+      <STR Name="C1">1,2,0,0</STR>
+      <STR Name="C2">3,0,0,1</STR>
+      <STR Name="C3">4,0,0,0</STR>
+      <STR Name="C4">0,4,0,0</STR>
+      <STR Name="C5">1,2,1,1</STR>
+      <STR Name="C6">5,0,0,1</STR>
+      <STR Name="C7">3,5,1,0</STR>
+      <STR Name="C8">6,0,0,1</STR>
+      <STR Name="C9">6,3,0,0</STR>
+    </DIR>
+  </DIR>
+  <DIR Name="CKMenu">
+    <DIR Name="0">
+      <STR Name="Parent">$MAIN</STR>
+      <INT Name="InsertBefore">0</INT>
+      <STR Name="TargetItem">View1</STR>
+      <STR Name="Item0">*,&amp;Messages,MsgMenu</STR>
+    </DIR>
+    <DIR Name="MsgMenu">
+      <STR Name="Item0">*,&amp;Universal,UnivMenu</STR>
+      <STR Name="Item1">*,CAN &amp;Kingdom,CKMenu</STR>
+    </DIR>
+    <DIR Name="CKMenu">
+      <STR Name="Item0">King's Page 0,C,0,TCanKingDialog.TKingsPage.TKPage0</STR>
+      <STR Name="Item1">King's Page 1,C,1,TCanKingDialog.TKingsPage.TKPage1</STR>
+      <STR Name="Item2">King's Page 2,C,2,TCanKingDialog.TKingsPage.TKPage2</STR>
+      <STR Name="Item3">King's Page 3,C,3,TCanKingDialog.TKingsPage.TKPage3</STR>
+      <STR Name="Item4">King's Page 4,C,4,TCanKingDialog.TKingsPage.TKPage4</STR>
+      <STR Name="Item5">King's Page 5,C,5,TCanKingDialog.TKingsPage.TKPage5</STR>
+      <STR Name="Item6">King's Page 6,C,6,TCanKingDialog.TKingsPage.TKPage6</STR>
+      <STR Name="Item7">King's Page 7,C,7,TCanKingDialog.TKingsPage.TKPage7</STR>
+      <STR Name="Item8">King's Page 8,C,8,TCanKingDialog.TKingsPage.TKPage8</STR>
+      <STR Name="Item9">King's Page 9,C,9,TCanKingDialog.TKingsPage.TKPage9</STR>
+      <STR Name="Item10">King's Page 10,A,0,TCanKingDialog.TKingsPage.TKPage10</STR>
+      <STR Name="Item11">King's Page 11,A,1,TCanKingDialog.TKingsPage.TKPage11</STR>
+      <STR Name="Item12">King's Page 12,A,2,TCanKingDialog.TKingsPage.TKPage12</STR>
+      <STR Name="Item13">King's Page 16,A,6,TCanKingDialog.TKingsPage.TKPage16</STR>
+      <STR Name="Item14">King's Page 17,A,7,TCanKingDialog.TKingsPage.TKPage17</STR>
+      <STR Name="Item15">King's Page 18,A,8,TCanKingDialog.TKingsPage.TKPage18</STR>
+      <STR Name="Item16">King's Page 19,A,9,TCanKingDialog.TKingsPage.TKPage19</STR>
+      <STR Name="Item17">King's Page 20,S,0,TCanKingDialog.TKingsPage.TKPage20</STR>
+      <STR Name="Item18">Default Letter,,,TCanKingDialog.TKingsPage.TDefaultLetterDlg</STR>
+    </DIR>
+    <DIR Name="UnivMenu">
+      <STR Name="Item0">Universal,C,U,TCanKingDialog.TUtilPage.TUniversalPage</STR>
+      <STR Name="Item1">1-4 Ints,C,I,TCanKingDialog.TUtilPage.TInt4Page</STR>
+      <STR Name="Item2">1-2 Longs,C,L,TCanKingDialog.TUtilPage.TLongintPage</STR>
+      <STR Name="Item3">1-2 Floats,C,F,TCanKingDialog.TUtilPage.TFloatPage</STR>
+      <STR Name="Item4">String,C,S,TCanKingDialog.TUtilPage.TStrPage</STR>
+      <STR Name="Item5">Traffic Generator,,,TCanKingDialog.TTrafficGenerator</STR>
+    </DIR>
+    <DIR Name="1">
+      <STR Name="Parent">$MAIN</STR>
+      <INT Name="InsertBefore">0</INT>
+      <STR Name="TargetItem">_MsgMenu</STR>
+      <STR Name="Item0">*,&amp;Options,OptionsMenu</STR>
+    </DIR>
+    <DIR Name="MChipMenu">
+      <STR Name="Item0">&amp;Transmit Buffer,,,TMCBaseWindow.TMCTransmitWindow</STR>
+      <STR Name="Item1">&amp;Config,,,TMCBaseWindow.TMCConfigWindow</STR>
+      <STR Name="Item2">&amp;Physical,,,TMCBaseWindow.TMCPhysicalWindow</STR>
+      <STR Name="Item3">&amp;Filter,,,TMCBaseWindow.TMCFilterWindow</STR>
+      <STR Name="Item4">&amp;Receive,,,TMCBaseWindow.TMCReceiveWindow</STR>
+      <STR Name="Item5">&amp;Status,,,TMCBaseWindow.TMCStatusWindow</STR>
+    </DIR>
+    <DIR Name="OptionsMenu">
+      <STR Name="Item0">&amp;Global...,,,TGlobalOptionsDlg</STR>
+      <STR Name="Item1">-,,,</STR>
+      <STR Name="Item2">&amp;King's Pages...,,,TCanKingDialog.TKingsPage.TKingsPageOptions</STR>
+      <STR Name="Item3">&amp;MCP2510...,,,TMCBaseWindow.TMCOptionsForm</STR>
+    </DIR>
+  </DIR>
+  <DIR Name="Plugin">
+    <DIR Name="&#123;FC073F12-61C1-11D2-BCE1-0060089830AD&#125;">
+      <INT Name="KingsEnvelope">0</INT>
+      <INT Name="DefaultCityGrpAddress">0</INT>
+      <INT Name="KingsEnvIsExt">0</INT>
+    </DIR>
+  </DIR>
+  <DIR Name="Global">
+    <INT Name="UseHex">1</INT>
+  </DIR>
+</DIR>
+</CK>

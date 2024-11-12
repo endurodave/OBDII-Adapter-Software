@@ -1,0 +1,32 @@
+[PROJECT]
+Target=Main.HEX
+Development_Mode=2
+Processor=0x8248
+ToolSuite=CCS
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=Main.c;
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+
+[Main.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=C:\Projects\Auterra\PIC\ADAPTE~2\Main.c
+
+[Windows]
+0=0000 C:\Projects\Auterra\PIC\ADAPTE~2\Main.c 0 0 796 451 3 0
+

@@ -1,0 +1,3 @@
+>>> Warning 203 "C:\Projects\Auterra\PIC\Adapter-CAN\Vehicle.c" Line 421(1,1): Condition always TRUE
+      Memory usage:   ROM=92%      RAM=69% - 86%
+      0 Errors,  1 Warnings.
