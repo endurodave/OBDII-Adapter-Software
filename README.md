@@ -63,6 +63,8 @@ The OBD-II adapter source code supports generic and enhanced protocols. Auterra 
 
 The OBD-II adapter software is written in C and compiled using [CCS](https://www.ccsinfo.com/compilers.php) PCH C Compiler, Version 3.167. The code executes on the Microchip PIC18F248 microcontroller. The source code serves as a translator of generic (universal) and enhanced (manufacturer specific) OBD-II messages to/from a host device.
 
+All microcontroller host communication is serial. On USB and Bluetooth, a serial translator was used to convert host serial messages into USB/Bluetooth. On Bluetooth, the Microchip RN42 chip was utilized in lieu of a host serial connector.
+
 The adapter source code is located within the [src](/src/) directory. **Main.HEX** is the last adapter release. 
 
 ## SAE J1850 VPW/PWN
