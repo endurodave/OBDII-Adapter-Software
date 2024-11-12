@@ -23,7 +23,7 @@ C language source code and schematic for an automotive OBD-II scan tool adapter.
 
 # Overview
 
-An OBD-II (On-Board Diagnostics II) scan tool adapter serves as a bridge device between a host (e.g. PC, phone, embedded device) and the vehicle. The OBD-II adapter translates serial messages to and from OBD-II vehicle messages. The adapter supports all known OBD-II automotive protocols starting from 1996 model year. 
+An OBD-II (On-Board Diagnostics II) scan tool adapter serves as a bridge device between a host (e.g. PC, phone, embedded device) and the vehicle. The OBD-II adapter translates serial messages to and from OBD-II vehicle messages. Very similar in concept to an ELM327 chip except all C language source code, protocol documentation and schematic is provided. The adapter supports all known OBD-II automotive protocols starting from 1996 model year.
 
 * SAE J1850 (VPW, PWM)
 * ISO 9141-2 (ISO)
