@@ -16,6 +16,7 @@ C language source code and schematic for an automotive OBD-II scan tool adapter.
   - [ISO 15765](#iso-15765)
 - [OBD-II Adapter Hardware Schematic](#obd-ii-adapter-hardware-schematic)
 - [Why Open Source?](#why-open-source)
+- [Star History](#star-history)
 - [Auterra Scan Tool Products](#auterra-scan-tool-products)
   - [Dyno-Scan for Windows](#dyno-scan-for-windows)
   - [DashDyno SPD](#dashdyno-spd)
@@ -92,6 +93,12 @@ The OBD-II adapter schematic is shown below. Actually its from the DashDyno, so 
 # Why Open Source? 
 
 Auterra products are no longer commercially available. However, the released source code and documentation may serve as valuable resources for future automotive-related projects.
+
+# Star History
+
+Find this repository useful? Consider giving it a star!
+
+[![Star History Chart](https://api.star-history.com/svg?repos=endurodave/OBDII-Adapter-Software&type=Date)](https://star-history.com/#endurodave/OBDII-Adapter-Software&Date)
 
 # Auterra Scan Tool Products
 
